@@ -9,14 +9,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
   // First thing -> player types in name
-  const grab = document.querySelector("#form");
-  grab.addEventListener("submit", (e) => {
-    e.preventDefault();
-    const grabValue = document.querySelector("#name");
-    const grabPlayer = document.querySelector("#nameInput");
-    const grabBttn = document.querySelector("#bttn");
-    grabPlayer.textContent = grabValue.value;
-  });
 
   //renderCards(cardImg)
   const botCard = document.querySelector("#botCard");
